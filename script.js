@@ -16,15 +16,14 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
 let currentTrial = 0;
-let trials = [];
 let responseTimes = [];
 let correctResponses = 0;
 let startTime;
 
 // Example image data
 const imageData = [
-    { img1: "images/real1.jpg", img2: "images/ai1.jpg", correct: "img2" },
-    { img1: "images/ai2.jpg", img2: "images/real2.jpg", correct: "img1" },
+    { img1: "images/real1.jpg", img2: "images/ai1.jpg", correct: "image-2" },
+    { img1: "images/ai2.jpg", img2: "images/real2.jpg", correct: "image-1" },
     // Add more trials here
 ];
 
@@ -115,7 +114,8 @@ function saveData(username, age, gender, results) {
     // Save the data to the reference
     set(dataRef, data)
         .then(() => {
-            alert("Data saved successfully!");
+            document.getElementById("result-section").style.display = "none";
+            document.getElementById("thank-you-message").style.display = "block";
         })
         .catch((error) => {
             console.error("Error saving data:", error);
