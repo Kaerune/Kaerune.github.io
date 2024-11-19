@@ -38,6 +38,17 @@ document.getElementById("begin-trials").addEventListener("click", () => {
     startTrial();
 });
 
+document.getElementById("finish-experiment").addEventListener("click", () => {
+    const username = document.getElementById("username").value;
+    const results = {
+        correct: correctResponses,
+        total: imageData.length,
+        avgResponseTime: responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length
+    };
+
+    saveData(username, results);
+});
+
 document.querySelectorAll("#buttons button").forEach((button) => {
     button.addEventListener("click", (e) => {
         handleResponse(e.target.id);
@@ -77,4 +88,23 @@ function showResults() {
     document.getElementById("total-correct").textContent = `Correct Responses: ${correctResponses}/${imageData.length}`;
     const avgTime = (responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length).toFixed(2);
     document.getElementById("average-response-time").textContent = `Average Response Time: ${avgTime} ms`;
+}
+
+// Function to save experiment results to Firebase
+function saveData(username, results) {
+    const timestamp = Date.now();
+    const data = {
+        username: username,
+        results: results,
+        timestamp: timestamp
+    };
+
+    // Save data under a unique key in the database
+    database.ref("experiment-results").push(data)
+        .then(() => {
+            alert("Data saved successfully!");
+        })
+        .catch((error) => {
+            console.error("Error saving data:", error);
+        });
 }
