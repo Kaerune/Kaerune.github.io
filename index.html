@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Discernment Experiment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="experiment-container">
+        <h1>Image Discernment Experiment</h1>
+        <div id="form-section">
+            <p>Please enter your name or pseudonym:</p>
+            <input type="text" id="username" placeholder="Your name...">
+            <button id="start-button">Start Experiment</button>
+        </div>
+
+        <div id="instruction-section" style="display: none;">
+            <p>Instructions:</p>
+            <p>There will be several trials. Your task is to identify artificially generated images.</p>
+            <button id="begin-trials">Begin Trials</button>
+        </div>
+
+        <div id="trial-section" style="display: none;">
+            <div id="image-pair">
+                <img id="image-1" src="" alt="Image 1">
+                <img id="image-2" src="" alt="Image 2">
+            </div>
+            <div id="buttons">
+                <button id="select-image-1">Image 1 is AI</button>
+                <button id="select-image-2">Image 2 is AI</button>
+                <button id="all-ai">All AI</button>
+                <button id="no-ai">No AI</button>
+            </div>
+            <p id="feedback" style="display: none;"></p>
+        </div>
+
+        <div id="result-section" style="display: none;">
+            <h2>Results</h2>
+            <p id="total-correct"></p>
+            <p id="average-response-time"></p>
+            <button id="finish-experiment">Finish Experiment</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

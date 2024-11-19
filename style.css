@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#experiment-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#image-pair img {
+    width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
