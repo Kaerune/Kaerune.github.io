@@ -1,18 +1,27 @@
-// Firebase configuration
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import { getDatabase } from "firebase/database";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyAEk9Z8o4c9Rcl0Uxlfc-Zba2_W56P5iMg",
-    authDomain: "discerning-between-ai-exp.firebaseapp.com",
-    databaseURL: "https://discerning-between-ai-exp-default-rtdb.firebaseio.com",
-    projectId: "discerning-between-ai-exp",
-    storageBucket: "discerning-between-ai-exp.firebasestorage.app",
-    messagingSenderId: "159730351162",
-    appId: "1:159730351162:web:d7b4256cdb94dd40e20903",
-    measurementId: "G-25KHXLFQLG"
-  };
+  apiKey: "AIzaSyAEk9Z8o4c9Rcl0Uxlfc-Zba2_W56P5iMg",
+  authDomain: "discerning-between-ai-exp.firebaseapp.com",
+  databaseURL: "https://discerning-between-ai-exp-default-rtdb.firebaseio.com",
+  projectId: "discerning-between-ai-exp",
+  storageBucket: "discerning-between-ai-exp.firebasestorage.app",
+  messagingSenderId: "159730351162",
+  appId: "1:159730351162:web:d7b4256cdb94dd40e20903",
+  measurementId: "G-25KHXLFQLG"
+};
 
 // Initialize Firebase
-const app = firebase.initializeApp(firebaseConfig);
-const db = firebase.database();
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+const db = getDatabase();
 
 // Global variables for experiment
 let currentTrial = 0;
