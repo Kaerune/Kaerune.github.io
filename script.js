@@ -101,8 +101,11 @@ function saveData(username, results) {
         timestamp: timestamp
     };
 
-    // Save data under a unique key in the database
-    database.ref("experiment-results").push(data)
+    // Define the reference where data will be saved
+    const dataRef = ref(database, 'experiment-results/' + timestamp);
+
+    // Save the data to the reference
+    set(dataRef, data)
         .then(() => {
             alert("Data saved successfully!");
         })
