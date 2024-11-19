@@ -1,3 +1,18 @@
+const firebaseConfig = {
+    apiKey: "AIzaSyAEk9Z8o4c9Rcl0Uxlfc-Zba2_W56P5iMg",
+    authDomain: "discerning-between-ai-exp.firebaseapp.com",
+    databaseURL: "https://discerning-between-ai-exp-default-rtdb.firebaseio.com",
+    projectId: "discerning-between-ai-exp",
+    storageBucket: "discerning-between-ai-exp.firebasestorage.app",
+    messagingSenderId: "159730351162",
+    appId: "1:159730351162:web:d7b4256cdb94dd40e20903",
+    measurementId: "G-25KHXLFQLG"
+  };
+
+// Initialize Firebase
+const app = firebase.initializeApp(firebaseConfig);
+const database = firebase.database();
+
 let currentTrial = 0;
 let trials = [];
 let responseTimes = [];
