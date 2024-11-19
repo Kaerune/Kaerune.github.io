@@ -1,5 +1,21 @@
+// Firebase configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyAEk9Z8o4c9Rcl0Uxlfc-Zba2_W56P5iMg",
+    authDomain: "discerning-between-ai-exp.firebaseapp.com",
+    databaseURL: "https://discerning-between-ai-exp-default-rtdb.firebaseio.com",
+    projectId: "discerning-between-ai-exp",
+    storageBucket: "discerning-between-ai-exp.firebasestorage.app",
+    messagingSenderId: "159730351162",
+    appId: "1:159730351162:web:d7b4256cdb94dd40e20903",
+    measurementId: "G-25KHXLFQLG"
+  };
+
+// Initialize Firebase
+const app = firebase.initializeApp(firebaseConfig);
+const db = firebase.database();
+
+// Global variables for experiment
 let currentTrial = 0;
-let trials = [];
 let responseTimes = [];
 let correctResponses = 0;
 let startTime;
@@ -29,6 +45,14 @@ document.querySelectorAll("#buttons button").forEach((button) => {
     });
 });
 
+document.getElementById("finish-experiment").addEventListener("click", () => {
+    const username = document.getElementById("username").value || "Anonymous";
+    const totalTrials = imageData.length;
+    const avgResponseTime = (responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length).toFixed(2);
+
+    saveData(username, correctResponses, totalTrials, avgResponseTime);
+});
+
 // Start a trial
 function startTrial() {
     if (currentTrial >= imageData.length) {
@@ -52,6 +76,25 @@ function handleResponse(selected) {
 
     currentTrial++;
     startTrial();
+}
+
+// Save experiment data to Firebase
+function saveData(username, correctResponses, totalTrials, avgResponseTime) {
+    const data = {
+        username: username,
+        correctResponses: correctResponses,
+        totalTrials: totalTrials,
+        avgResponseTime: avgResponseTime,
+        timestamp: Date.now()
+    };
+
+    db.ref("experiment-results").push(data)
+        .then(() => {
+            alert("Data saved successfully!");
+        })
+        .catch((error) => {
+            console.error("Error saving data:", error);
+        });
 }
 
 // Show results
