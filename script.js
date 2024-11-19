@@ -23,8 +23,8 @@ let startTime;
 
 // Example image data
 const imageData = [
-    { img1: "images/real1.jpg", img2: "images/ai1.jpg", correct: "image-2" },
-    { img1: "images/ai2.jpg", img2: "images/real2.jpg", correct: "image-1" },
+    { img1: "images/real1.jpg", img2: "images/ai1.jpg", correct: "img2" },
+    { img1: "images/ai2.jpg", img2: "images/real2.jpg", correct: "img1" },
     // Add more trials here
 ];
 
@@ -41,14 +41,20 @@ document.getElementById("begin-trials").addEventListener("click", () => {
 });
 
 document.getElementById("finish-experiment").addEventListener("click", () => {
+    // Capture user input for name, age, and gender
     const username = document.getElementById("username").value;
+    const age = document.getElementById("age").value;  // Can be blank
+    const gender = document.getElementById("gender").value;  // Can be blank or one of the options
+
+    // Collect the results (for example, correct responses and average response time)
     const results = {
         correct: correctResponses,
         total: imageData.length,
         avgResponseTime: responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length
     };
 
-    saveData(username, results);
+    // Save all the data including age and gender
+    saveData(username, age, gender, results);
 });
 
 document.querySelectorAll("#buttons button").forEach((button) => {
@@ -93,10 +99,12 @@ function showResults() {
 }
 
 // Function to save experiment results to Firebase
-function saveData(username, results) {
+function saveData(username, age, gender, results) {
     const timestamp = Date.now();
     const data = {
         username: username,
+        age: age || "Not Specified",  // Default to "Not Specified" if no age is provided
+        gender: gender || "Not Specified",  // Default to "Unspecified" if no gender is selected
         results: results,
         timestamp: timestamp
     };
