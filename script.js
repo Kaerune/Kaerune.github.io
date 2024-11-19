@@ -116,17 +116,8 @@ function saveData(username, age, gender, results) {
     set(dataRef, data)
         .then(() => {
             alert("Data saved successfully!");
-            showThankYou();  // Show the thank you after data is saved
         })
         .catch((error) => {
             console.error("Error saving data:", error);
         });
-}
-
-function showThankYou() {
-    // Hide the experiment content (if applicable)
-    document.getElementById("experiment-content").style.display = "none";  // Optional, if you have an experiment section
-    
-    // Show the thank you message
-    document.getElementById("thank-you-scene").style.display = "block";
 }
