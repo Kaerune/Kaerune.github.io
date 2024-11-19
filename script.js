@@ -1,30 +1,5 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { getDatabase } from "firebase/database";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAEk9Z8o4c9Rcl0Uxlfc-Zba2_W56P5iMg",
-  authDomain: "discerning-between-ai-exp.firebaseapp.com",
-  databaseURL: "https://discerning-between-ai-exp-default-rtdb.firebaseio.com",
-  projectId: "discerning-between-ai-exp",
-  storageBucket: "discerning-between-ai-exp.firebasestorage.app",
-  messagingSenderId: "159730351162",
-  appId: "1:159730351162:web:d7b4256cdb94dd40e20903",
-  measurementId: "G-25KHXLFQLG"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const db = getDatabase();
-
-// Global variables for experiment
 let currentTrial = 0;
+let trials = [];
 let responseTimes = [];
 let correctResponses = 0;
 let startTime;
@@ -36,31 +11,21 @@ const imageData = [
     // Add more trials here
 ];
 
-document.addEventListener("DOMContentLoaded", () => {
-    // Event Listeners
-    document.getElementById("start-button").addEventListener("click", () => {
-        document.getElementById("form-section").style.display = "none";
-        document.getElementById("instruction-section").style.display = "block";
-    });
+// Event Listeners
+document.getElementById("start-button").addEventListener("click", () => {
+    document.getElementById("form-section").style.display = "none";
+    document.getElementById("instruction-section").style.display = "block";
+});
 
-    document.getElementById("begin-trials").addEventListener("click", () => {
-        document.getElementById("instruction-section").style.display = "none";
-        document.getElementById("trial-section").style.display = "block";
-        startTrial();
-    });
+document.getElementById("begin-trials").addEventListener("click", () => {
+    document.getElementById("instruction-section").style.display = "none";
+    document.getElementById("trial-section").style.display = "block";
+    startTrial();
+});
 
-    document.querySelectorAll("#buttons button").forEach((button) => {
-        button.addEventListener("click", (e) => {
-            handleResponse(e.target.id);
-        });
-    });
-
-    document.getElementById("finish-experiment").addEventListener("click", () => {
-        const username = document.getElementById("username").value || "Anonymous";
-        const totalTrials = imageData.length;
-        const avgResponseTime = (responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length).toFixed(2);
-
-        saveData(username, correctResponses, totalTrials, avgResponseTime);
+document.querySelectorAll("#buttons button").forEach((button) => {
+    button.addEventListener("click", (e) => {
+        handleResponse(e.target.id);
     });
 });
 
@@ -87,25 +52,6 @@ function handleResponse(selected) {
 
     currentTrial++;
     startTrial();
-}
-
-// Save experiment data to Firebase
-function saveData(username, correctResponses, totalTrials, avgResponseTime) {
-    const data = {
-        username: username,
-        correctResponses: correctResponses,
-        totalTrials: totalTrials,
-        avgResponseTime: avgResponseTime,
-        timestamp: Date.now()
-    };
-
-    db.ref("experiment-results").push(data)
-        .then(() => {
-            alert("Data saved successfully!");
-        })
-        .catch((error) => {
-            console.error("Error saving data:", error);
-        });
 }
 
 // Show results
