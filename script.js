@@ -27,30 +27,32 @@ const imageData = [
     // Add more trials here
 ];
 
-// Event Listeners
-document.getElementById("start-button").addEventListener("click", () => {
-    document.getElementById("form-section").style.display = "none";
-    document.getElementById("instruction-section").style.display = "block";
-});
-
-document.getElementById("begin-trials").addEventListener("click", () => {
-    document.getElementById("instruction-section").style.display = "none";
-    document.getElementById("trial-section").style.display = "block";
-    startTrial();
-});
-
-document.querySelectorAll("#buttons button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-        handleResponse(e.target.id);
+document.addEventListener("DOMContentLoaded", () => {
+    // Event Listeners
+    document.getElementById("start-button").addEventListener("click", () => {
+        document.getElementById("form-section").style.display = "none";
+        document.getElementById("instruction-section").style.display = "block";
     });
-});
 
-document.getElementById("finish-experiment").addEventListener("click", () => {
-    const username = document.getElementById("username").value || "Anonymous";
-    const totalTrials = imageData.length;
-    const avgResponseTime = (responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length).toFixed(2);
+    document.getElementById("begin-trials").addEventListener("click", () => {
+        document.getElementById("instruction-section").style.display = "none";
+        document.getElementById("trial-section").style.display = "block";
+        startTrial();
+    });
 
-    saveData(username, correctResponses, totalTrials, avgResponseTime);
+    document.querySelectorAll("#buttons button").forEach((button) => {
+        button.addEventListener("click", (e) => {
+            handleResponse(e.target.id);
+        });
+    });
+
+    document.getElementById("finish-experiment").addEventListener("click", () => {
+        const username = document.getElementById("username").value || "Anonymous";
+        const totalTrials = imageData.length;
+        const avgResponseTime = (responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length).toFixed(2);
+
+        saveData(username, correctResponses, totalTrials, avgResponseTime);
+    });
 });
 
 // Start a trial
