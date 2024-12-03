@@ -33,8 +33,8 @@ const imageDataPart1 = [
 ];
 
 const imageDataPart2 = [
-    { img1: "images/ai5.jpg", img2: "images/real5.jpg", correct: "image-1" },
-    { img1: "images/ai6.jpg", img2: "images/real6.jpg", correct: "image-1" },
+    { img1: "images/real5.jpg", img2: "images/ai5.jpg", correct: "image-2" },
+    { img1: "images/real6.jpg", img2: "images/ai6.jpg", correct: "image-2" },
     { img1: "images/ai7.jpg", img2: "images/real7.jpg", correct: "image-1" },
     { img1: "images/ai8.jpg", img2: "images/real8.jpg", correct: "image-1" },
     { img1: "images/ai13.jpg", img2: "images/ai14.jpg", correct: "all-ai" },
