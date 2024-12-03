@@ -20,26 +20,28 @@ let responseTimes = [];
 let correctResponses = 0;
 let startTime;
 
-// Example image data
-const imageData = [
+// Divide trials into two sections
+const imageDataPart1 = [
     { img1: "images/real1.jpg", img2: "images/ai1.jpg", correct: "image-2" },
     { img1: "images/real2.jpg", img2: "images/ai2.jpg", correct: "image-2" },
-    { img1: "images/real3.jpg", img2: "images/ai3.jpg", correct: "image-2" },
-    { img1: "images/real4.jpg", img2: "images/ai4.jpg", correct: "image-2" },
+    { img1: "images/ai3.jpg", img2: "images/real3.jpg", correct: "image-1" },
+    { img1: "images/ai4.jpg", img2: "images/real4.jpg", correct: "image-1" },
+    { img1: "images/ai9.jpg", img2: "images/ai10.jpg", correct: "all-ai" },
+    { img1: "images/ai11.jpg", img2: "images/ai12.jpg", correct: "all-ai" },
+    { img1: "images/real9.jpg", img2: "images/real10.jpg", correct: "no-ai" },
+    { img1: "images/real11.jpg", img2: "images/real12.jpg", correct: "no-ai" }
+];
+
+const imageDataPart2 = [
     { img1: "images/ai5.jpg", img2: "images/real5.jpg", correct: "image-1" },
     { img1: "images/ai6.jpg", img2: "images/real6.jpg", correct: "image-1" },
     { img1: "images/ai7.jpg", img2: "images/real7.jpg", correct: "image-1" },
     { img1: "images/ai8.jpg", img2: "images/real8.jpg", correct: "image-1" },
-    { img1: "images/ai9.jpg", img2: "images/ai10.jpg", correct: "all-ai" },
-    { img1: "images/ai11.jpg", img2: "images/ai12.jpg", correct: "all-ai" },
     { img1: "images/ai13.jpg", img2: "images/ai14.jpg", correct: "all-ai" },
     { img1: "images/ai15.jpg", img2: "images/ai16.jpg", correct: "all-ai" },
-    { img1: "images/real9.jpg", img2: "images/real10.jpg", correct: "no-ai" },
-    { img1: "images/real11.jpg", img2: "images/real12.jpg", correct: "no-ai" },
     { img1: "images/real13.jpg", img2: "images/real14.jpg", correct: "no-ai" },
     { img1: "images/real15.jpg", img2: "images/real16.jpg", correct: "no-ai" }
 ];
-
 // Event Listeners
 document.getElementById("start-button").addEventListener("click", () => {
     document.getElementById("form-section").style.display = "none";
@@ -52,6 +54,8 @@ document.getElementById("begin-trials").addEventListener("click", () => {
     startTrial();
 });
 
+let currentImageData = imageDataPart1;
+
 document.getElementById("finish-experiment").addEventListener("click", () => {
     // Capture user input for name, age, and gender
     const username = document.getElementById("username").value;
@@ -61,12 +65,20 @@ document.getElementById("finish-experiment").addEventListener("click", () => {
     // Collect the results (for example, correct responses and average response time)
     const results = {
         correct: correctResponses,
-        total: imageData.length,
+        total: imageDataPart1.length + imageDataPart2.length,
         avgResponseTime: responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length
     };
 
     // Save all the data including age and gender
     saveData(username, age, gender, results);
+});
+
+document.getElementById("begin-art-trials").addEventListener("click", () => {
+    document.getElementById("instruction-art-section").style.display = "none";
+    document.getElementById("trial-section").style.display = "block";
+    currentTrial = 0; // Reset trial counter
+    currentImageData = imageDataPart2; // Switch to the second set of trials
+    startTrial();
 });
 
 document.querySelectorAll("#buttons button").forEach((button) => {
@@ -88,13 +100,17 @@ shuffleArray(imageData);
 
 // Start a trial
 function startTrial() {
-    if (currentTrial >= imageData.length) {
-        showResults();
+    if (currentTrial >= currentImageData.length) {
+        if (currentImageData === imageDataPart1) {
+            showArtInstructions();
+        } else {
+            showResults();
+        }
         return;
     }
 
     // Get the current trial
-    const trial = imageData[currentTrial];
+    const trial = currentImageData[currentTrial];
 
     // Set the images for the trial
     document.getElementById("image-1").style.height = "300px";
@@ -110,7 +126,7 @@ function startTrial() {
 
 // Handle responses
 function handleResponse(selected) {
-    const trial = imageData[currentTrial];
+    const trial = currentImageData[currentTrial];
     const endTime = performance.now();
     const responseTime = endTime - startTime;
 
@@ -129,9 +145,15 @@ function handleResponse(selected) {
     startTrial();
 }
 
+// Show art instructions
+function showArtInstructions() {
+    document.getElementById("trial-section").style.display = "none";
+    document.getElementById("instruction-art-section").style.display = "block";
+}
+
 // Show results
 function showResults() {
-    document.getElementById("trial-section").style.display = "none";
+    document.getElementById("instruction-art-section").style.display = "none";
     document.getElementById("result-section").style.display = "block";
 
     // Display the number of correct responses
