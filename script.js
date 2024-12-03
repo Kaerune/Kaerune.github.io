@@ -16,8 +16,11 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
 let currentTrial = 0;
-let responseTimes = [];
-let correctResponses = 0;
+let responseTimesPart1 = [];
+let responseTimesPart2 = [];
+let correctResponsesPart1 = 0;
+let correctResponsesPart2 = 0;
+let trialResults = []; // Array to store detailed results for all trials
 let startTime;
 
 // Divide trials into two sections
@@ -62,11 +65,18 @@ document.getElementById("finish-experiment").addEventListener("click", () => {
     const age = document.getElementById("age").value;  // Can be blank
     const gender = document.getElementById("gender").value;  // Can be blank or one of the options
 
-    // Collect the results (for example, correct responses and average response time)
+    // Prepare and save results
     const results = {
-        correct: correctResponses,
-        total: imageDataPart1.length + imageDataPart2.length,
-        avgResponseTime: responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length
+        realistic: {
+            correct: correctResponsesPart1,
+            total: imageDataPart1.length,
+            avgResponseTime: avgTimePart1,
+        },
+        art: {
+            correct: correctResponsesPart2,
+            total: imageDataPart2.length,
+            avgResponseTime: avgTimePart2,
+        },
     };
 
     // Save all the data including age and gender
@@ -129,13 +139,25 @@ function handleResponse(selected) {
     const trial = currentImageData[currentTrial];
     const endTime = performance.now();
     const responseTime = endTime - startTime;
+    const isCorrect = selected === trial.correct;
 
-    // Log the response time
-    responseTimes.push(responseTime);
+    // Store response details
+    trialResults.push({
+        trialNumber: currentTrial + 1,
+        section: currentTrial < imageDataPart1.length ? "Realistic" : "Art",
+        selected: selected,
+        correct: trial.correct,
+        isCorrect: isCorrect,
+        responseTime: responseTime,
+    });
     
-    // Check if the response is correct
-    if (selected === trial.correct) {
-        correctResponses++;
+    // Log the response time and if the response was correct
+    if (currentImageData === imageDataPart1) {
+        responseTimesPart1.push(responseTime);
+        if (selected === trial.correct) correctResponsesPart1++;
+    } else if (currentImageData === imageDataPart2) {
+        responseTimesPart2.push(responseTime);
+        if (selected === trial.correct) correctResponsesPart2++;
     }
 
     // Move to the next trial
@@ -151,17 +173,26 @@ function showArtInstructions() {
     document.getElementById("instruction-art-section").style.display = "block";
 }
 
-// Show results
+// Show results for both sections in the same result-section
 function showResults() {
-    document.getElementById("instruction-art-section").style.display = "none";
+    document.getElementById("trial-section").style.display = "none";
     document.getElementById("result-section").style.display = "block";
 
-    // Display the number of correct responses
-    document.getElementById("total-correct").textContent = `Correct Responses: ${correctResponses}/${imageData.length}`;
+    // Realistic Section Results
+    const avgTimePart1 = (responseTimesPart1.reduce((a, b) => a + b, 0) / responseTimesPart1.length).toFixed(2);
+    document.getElementById("realistic-results").innerHTML = `
+        <h3>The Real Section</h3>
+        <p>Correct Responses: ${correctResponsesPart1}/${imageDataPart1.length}</p>
+        <p>Average Response Time: ${avgTimePart1} ms</p>
+    `;
 
-    // Calculate and display the average response time
-    const avgTime = (responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length).toFixed(2);
-    document.getElementById("average-response-time").textContent = `Average Response Time: ${avgTime} ms`;
+    // Art Section Results
+    const avgTimePart2 = (responseTimesPart2.reduce((a, b) => a + b, 0) / responseTimesPart2.length).toFixed(2);
+    document.getElementById("art-results").innerHTML = `
+        <h3>The Art Section</h3>
+        <p>Correct Responses: ${correctResponsesPart2}/${imageDataPart2.length}</p>
+        <p>Average Response Time: ${avgTimePart2} ms</p>
+    `;
 }
 
 // Function to save experiment results to Firebase
@@ -172,6 +203,7 @@ function saveData(username, age, gender, results) {
         age: age || "Not Specified",  // Default to "Not Specified" if no age is provided
         gender: gender || "Not Specified",  // Default to "Unspecified" if no gender is selected
         results: results,
+        trialDetails: trialResults, // Include detailed trial data
         timestamp: timestamp
     };
 
