@@ -181,7 +181,7 @@ function showResults() {
     // Realistic Section Results
     const avgTimePart1 = (responseTimesPart1.reduce((a, b) => a + b, 0) / responseTimesPart1.length).toFixed(2);
     document.getElementById("realistic-results").innerHTML = `
-        <h3>The Real Section</h3>
+        <h3>Realistic Images Section</h3>
         <p>Correct Responses: ${correctResponsesPart1}/${imageDataPart1.length}</p>
         <p>Average Response Time: ${avgTimePart1} ms</p>
     `;
@@ -189,7 +189,7 @@ function showResults() {
     // Art Section Results
     const avgTimePart2 = (responseTimesPart2.reduce((a, b) => a + b, 0) / responseTimesPart2.length).toFixed(2);
     document.getElementById("art-results").innerHTML = `
-        <h3>The Art Section</h3>
+        <h3>Artistic Images Section</h3>
         <p>Correct Responses: ${correctResponsesPart2}/${imageDataPart2.length}</p>
         <p>Average Response Time: ${avgTimePart2} ms</p>
     `;
