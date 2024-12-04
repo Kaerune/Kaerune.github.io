@@ -12,19 +12,18 @@ body {
 }
 
 #image-container {
-    width: 350px;
-    height: 350px;
-    overflow: hidden;
-    position: relative;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    width: 100%; 
 }
 
 #image-container img {
-    width: 100%; /* Adjust this for scaling: width: auto; can also work */
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 300px; 
+    height: 300px;
+    object-fit: cover; 
+    object-position: center; 
+    border: 1px solid #ccc; 
 }
 
 button {
