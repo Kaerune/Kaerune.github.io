@@ -46,6 +46,7 @@ const imageDataPart2 = [
     { img1: "images/real15.jpg", img2: "images/real16.jpg", correct: "no-ai" }
 ];
 
+// Shuffle the trials before the start of the experiment
 shuffleArray(imageDataPart1);
 shuffleArray(imageDataPart2);
 
@@ -108,9 +109,6 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
-
-// Shuffle the trials at the start of the experiment
-shuffleArray(imageData);
 
 // Start a trial
 function startTrial() {
