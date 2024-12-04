@@ -45,6 +45,10 @@ const imageDataPart2 = [
     { img1: "images/real13.jpg", img2: "images/real14.jpg", correct: "no-ai" },
     { img1: "images/real15.jpg", img2: "images/real16.jpg", correct: "no-ai" }
 ];
+
+shuffleArray(imageDataPart1);
+shuffleArray(imageDataPart2);
+
 // Event Listeners
 document.getElementById("start-button").addEventListener("click", () => {
     document.getElementById("form-section").style.display = "none";
