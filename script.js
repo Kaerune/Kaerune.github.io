@@ -15,8 +15,8 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
-const avgTimePart1 = 0;
-const avgTimePart2 = 0;
+let avgTimePart1 = 0;
+let avgTimePart2 = 0;
 
 let currentTrial = 0;
 let responseTimesPart1 = [];
