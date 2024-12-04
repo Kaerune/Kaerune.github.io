@@ -104,10 +104,10 @@ function startTrial() {
     const trial = currentImageData[currentTrial];
 
     // Set the images for the trial
-    document.getElementById("image-1").style.height = "400px";
-    document.getElementById("image-1").style.width = "400px";
-    document.getElementById("image-2").style.height = "400px";
-    document.getElementById("image-2").style.width = "400px";
+    document.getElementById("image-1").style.height = "350px";
+    document.getElementById("image-1").style.width = "350px";
+    document.getElementById("image-2").style.height = "350px";
+    document.getElementById("image-2").style.width = "350px";
     document.getElementById("image-1").src = trial.img1;
     document.getElementById("image-2").src = trial.img2;
 
