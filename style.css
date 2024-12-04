@@ -11,10 +11,20 @@ body {
     padding: 20px;
 }
 
-#image-pair img {
-    width: 300px;
-    margin: 10px;
-    border: 2px solid black;
+.image-container {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%; /* Adjust this for scaling: width: auto; can also work */
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 button {
