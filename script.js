@@ -64,30 +64,6 @@ document.getElementById("begin-trials").addEventListener("click", () => {
 
 let currentImageData = imageDataPart1;
 
-document.getElementById("finish-experiment").addEventListener("click", () => {
-    // Capture user input for name, age, and gender
-    const username = document.getElementById("username").value;
-    const age = document.getElementById("age").value;  // Can be blank
-    const gender = document.getElementById("gender").value;  // Can be blank or one of the options
-
-    // Prepare and save results
-    const results = {
-        realistic: {
-            correct: correctResponsesPart1,
-            total: imageDataPart1.length,
-            avgResponseTime: avgTimePart1,
-        },
-        art: {
-            correct: correctResponsesPart2,
-            total: imageDataPart2.length,
-            avgResponseTime: avgTimePart2,
-        },
-    };
-
-    // Save all the data including age and gender
-    saveData(username, age, gender, results);
-});
-
 document.getElementById("begin-art-trials").addEventListener("click", () => {
     document.getElementById("instruction-art-section").style.display = "none";
     document.getElementById("trial-section").style.display = "block";
@@ -196,6 +172,30 @@ function showResults() {
         <p>Average Response Time: ${avgTimePart2} ms</p>
     `;
 }
+
+document.getElementById("finish-experiment").addEventListener("click", () => {
+    // Capture user input for name, age, and gender
+    const username = document.getElementById("username").value;
+    const age = document.getElementById("age").value;  // Can be blank
+    const gender = document.getElementById("gender").value;  // Can be blank or one of the options
+
+    // Prepare and save results
+    const results = {
+        realistic: {
+            correct: correctResponsesPart1,
+            total: imageDataPart1.length,
+            avgResponseTime: avgTimePart1,
+        },
+        art: {
+            correct: correctResponsesPart2,
+            total: imageDataPart2.length,
+            avgResponseTime: avgTimePart2,
+        },
+    };
+
+    // Save all the data including age and gender
+    saveData(username, age, gender, results);
+});
 
 // Function to save experiment results to Firebase
 function saveData(username, age, gender, results) {
