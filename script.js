@@ -116,12 +116,14 @@ function handleResponse(selected) {
     const trial = currentImageData[currentTrial];
     const endTime = performance.now();
     const responseTime = endTime - startTime;
+    
     const isCorrect = selected === trial.correct;
-
+    const section = currentTrial < imageDataPart1.length ? "Realistic" : "Artistic";
+    
     // Store response details
     trialResults.push({
         trialNumber: currentTrial + 1,
-        section: currentTrial < imageDataPart1.length ? "Realistic" : "Art",
+        section: section,
         selected: selected,
         correct: trial.correct,
         isCorrect: isCorrect,
