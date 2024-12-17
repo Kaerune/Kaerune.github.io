@@ -1,0 +1,7108 @@
+{
+  "experiment-results": {
+    "1733281039835": {
+      "age": "Not Specified",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "6683.64",
+          "correct": 1,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "8734.16",
+          "correct": 3,
+          "total": 8
+        }
+      },
+      "timestamp": 1733281039835,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 7379.199999999255,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 17402.799999999814,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 4259.800000000745,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5255.5,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5349.700000000186,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3121.899999999441,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5581.600000000559,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 21522.799999999814,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 17846.700000000186,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 9777.600000000559,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 2849.5999999996275,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5280,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4707.4000000003725,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 6397.4000000003725,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 1563.9000000003725,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5046.5,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Reilly"
+    },
+    "1733281156210": {
+      "age": "21",
+      "gender": "Male",
+      "results": {
+        "art": {
+          "avgResponseTime": "18755.64",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "27538.58",
+          "correct": 7,
+          "total": 8
+        }
+      },
+      "timestamp": 1733281156210,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 31870,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 43019.5,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 7569.100000023842,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 9102.600000023842,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 23994.399999976158,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 75930.59999996424,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 22795.900000035763,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 6026.5,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 10278.800000011921,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 37175.10000002384,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 13067.900000035763,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 36299.69999998808,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 25097.100000023842,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 15322.800000011921,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 5017.800000011921,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 7785.899999976158,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Christian"
+    },
+    "1733281565338": {
+      "age": "21",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "19932.03",
+          "correct": 5,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "14435.26",
+          "correct": 6,
+          "total": 8
+        }
+      },
+      "timestamp": 1733281565338,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 31341.100000000093,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 23528.899999999907,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 9459.100000000093,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 9295.19999999972,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 9398.399999999907,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 10455.30000000028,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 15505.900000000373,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 6498.199999999721,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 5009.800000000279,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 38339,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5387.9000000003725,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 24054.80000000028,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 5830.799999999814,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 21098.100000000093,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 37871.700000000186,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 21864.099999999627,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Sydney Wass"
+    },
+    "1733282157674": {
+      "age": "21",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "49429.73",
+          "correct": 2,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "24591.13",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733282157674,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 22875.12,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 25102.18,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 24511.09,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 26088.15,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 23840.08,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 24326.14,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 25195.1,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 24784.14,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 60123.07,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 43210.14,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 51234.1,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 45321.09,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 48001.12,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 52011.8,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 39987.11,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 55550.13,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Sadie "
+    },
+    "1733282447562": {
+      "age": "23",
+      "gender": "Other",
+      "results": {
+        "art": {
+          "avgResponseTime": "2176.77",
+          "correct": 3,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "2001.06",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733282447562,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 2601.1999999955297,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 2134,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 1754.6000000014901,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 2142.7999999970198,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 1746.8999999985099,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 2269.10000000149,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 1588.8999999985099,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 1771,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 4141.79999999702,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 2008,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 1771,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 1937.7000000029802,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2583.89999999851,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 1708,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 1666.8999999985099,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 1596.8999999985099,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        }
+      ],
+      "username": "colin"
+    },
+    "1733282594763": {
+      "age": "21",
+      "gender": "Unspecified",
+      "results": {
+        "art": {
+          "avgResponseTime": "25369.38",
+          "correct": 6,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "44797.38",
+          "correct": 4,
+          "total": 8
+        }
+      },
+      "timestamp": 1733282594763,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 43783,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 49294,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 92759,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 47827,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 33462,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 40120,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 13922,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 37212,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 50089,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 26853,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 17704,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 5620,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 23020,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 24112,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 33116,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 22441,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Tiernan"
+    },
+    "1733284569856": {
+      "age": "22",
+      "gender": "Other",
+      "results": {
+        "art": {
+          "avgResponseTime": "21180.38",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "16644.38",
+          "correct": 2,
+          "total": 8
+        }
+      },
+      "timestamp": 1733284569856,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 28710,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 22042,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 11337.000000000015,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 38040,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 6877.999999999985,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 12974,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 6795,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 6379,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 45166,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 22355.00000000003,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 34375,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4742,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 17013,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 14960,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 19100,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 11732,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Max"
+    },
+    "1733284924110": {
+      "age": "Not Specified",
+      "gender": "Male",
+      "results": {
+        "art": {
+          "avgResponseTime": "11535.75",
+          "correct": 3,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "16187.50",
+          "correct": 7,
+          "total": 8
+        }
+      },
+      "timestamp": 1733284924110,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 30755,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 15310.999999999993,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 17211,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 7963,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 20495,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 13234.000000000015,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 10150.000000000015,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 14381,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 10930,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 11059,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 6759,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 8763,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 10795,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 14057.00000000003,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 10950,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 18972.99999999997,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Brenden"
+    },
+    "1733285587216": {
+      "age": "24",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "9881.90",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "14012.03",
+          "correct": 2,
+          "total": 8
+        }
+      },
+      "timestamp": 1733285587216,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 19868.90000000596,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 18104.5,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 25028.5,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 10541.40000000596,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 19353.20000001788,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 7576.5,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 4736.699999988079,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 6886.5,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 19450.59999999404,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 8460.699999988079,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4865.300000011921,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 6409.800000011921,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 25181.59999999404,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 6183.9000000059605,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 3737.699999988079,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4765.5999999940395,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Elayne "
+    },
+    "1733285875909": {
+      "age": "29",
+      "gender": "Male",
+      "results": {
+        "art": {
+          "avgResponseTime": "58221.67",
+          "correct": 5,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "6229.13",
+          "correct": 6,
+          "total": 8
+        }
+      },
+      "timestamp": 1733285875909,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 2116.899999976158,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 10560.600000023842,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 5525.700000047684,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 2594.5,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 1873.3000000715256,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 1443.8999999761581,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 22603.100000023842,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 3115,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 35264.200000047684,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 63808.60000002384,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 15751.5,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 105306.29999995232,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 66873.5,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 60795.39999997616,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 72444.29999995232,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 45529.60000002384,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Syde"
+    },
+    "1733287345174": {
+      "age": "21",
+      "gender": "Other",
+      "results": {
+        "art": {
+          "avgResponseTime": "7639.00",
+          "correct": 1,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "8088.12",
+          "correct": 1,
+          "total": 8
+        }
+      },
+      "timestamp": 1733287345174,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 6275.999999999998,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 27745,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4510.000000000007,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4253,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4635.999999999993,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 3567.9999999999927,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4905,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 8812,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 7114.000000000015,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 7066,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 9853,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 9802,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 12895.000000000015,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 7833,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2481,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4068,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        }
+      ],
+      "username": "abbey"
+    },
+    "1733318167760": {
+      "age": "20",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "7093.38",
+          "correct": 2,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "13180.50",
+          "correct": 4,
+          "total": 8
+        }
+      },
+      "timestamp": 1733318167760,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 8649,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 15240,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 22856,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 18905,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 10085,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 6669,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 18156.000000000015,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4884,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 6902,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 11469,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 8820,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3451,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 8650.99999999997,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 6335,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 6502,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4617.000000000029,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Lexi"
+    },
+    "1733331477596": {
+      "age": "21",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "7090.20",
+          "correct": 3,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "8474.71",
+          "correct": 3,
+          "total": 8
+        }
+      },
+      "timestamp": 1733331477596,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 22241.299999952316,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 2416.199999809265,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 19733.700000047684,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 2832.899999856949,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 2891.2000000476837,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2281.4000000953674,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 2343.7999999523163,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 13057.200000047684,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 5839.400000095367,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 14393.100000143051,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 10798.700000047684,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 2909.2000000476837,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4691.600000143051,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 3615.2999999523163,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 11811.299999952316,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 2663,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Kylan"
+    },
+    "1733331812847": {
+      "age": "20",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "6492.13",
+          "correct": 3,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "10848.75",
+          "correct": 4,
+          "total": 8
+        }
+      },
+      "timestamp": 1733331812847,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 8156,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 6853,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 26789,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 8454,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4984.000000000015,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 13408.999999999985,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 6577,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 11568,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 16920,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 6598.999999999985,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 5151.000000000015,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3633,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5133,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4267,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 6500,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3734,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Hannah"
+    },
+    "1733339619966": {
+      "age": "22",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "5652.11",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "5720.86",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733339619966,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 9900.200000017881,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 13533,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4399.700000017881,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 3649.5999999940395,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 3250.300000011921,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 3266.7000000178814,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4033.4000000059605,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3734,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 5216.4000000059605,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 8733.5,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 3166.7999999821186,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 12449.5,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 2399.699999988079,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 2067,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 6167.4000000059605,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 5016.5999999940395,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Belle"
+    },
+    "1733339718023": {
+      "age": "21",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "4901.31",
+          "correct": 6,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "5592.24",
+          "correct": 1,
+          "total": 8
+        }
+      },
+      "timestamp": 1733339718023,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 6521.100000143051,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 10896.700000047684,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3375.0999999046326,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 3191.699999809265,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 5096.400000095367,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 5508.900000095367,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3824.2999999523163,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 6323.700000047684,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4917,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4099,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 8014.5,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4719.399999856949,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 3344.7999999523163,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 4848.700000047684,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4003.9000000953674,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 5263.200000047684,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Karina"
+    },
+    "1733339766570": {
+      "age": "21",
+      "gender": "Male",
+      "results": {
+        "art": {
+          "avgResponseTime": "4930.00",
+          "correct": 2,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "5936.50",
+          "correct": 4,
+          "total": 8
+        }
+      },
+      "timestamp": 1733339766570,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 10562.600000023842,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 7212.399999976158,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 8102.399999976158,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 2938.5,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3210,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 2081.2000000476837,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 7669.200000047684,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 5715.699999928474,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 12590.5,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4131.599999904633,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 6787.100000023842,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 3235.8000000715256,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 4489.800000071526,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 2770.2000000476837,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 1912.6999999284744,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 3522.2999999523163,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "marcell"
+    },
+    "1733339997974": {
+      "age": "21",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "3370.51",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "4774.52",
+          "correct": 4,
+          "total": 8
+        }
+      },
+      "timestamp": 1733339997974,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 7136,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 3646.399999976158,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 5531.100000023842,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 3043.699999988079,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 10524.09999999404,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 3210.0999999940395,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2195.5,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 2909.300000011921,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4867.300000011921,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3114.800000011921,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4399.799999982119,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 2909.899999976158,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 2586.0999999940395,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 2388.800000011921,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 3356.5,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3340.9000000059605,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Alex"
+    },
+    "1733340103034": {
+      "age": "25",
+      "gender": "Male",
+      "results": {
+        "art": {
+          "avgResponseTime": "6628.67",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "8495.71",
+          "correct": 4,
+          "total": 8
+        }
+      },
+      "timestamp": 1733340103034,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 22555.80000001192,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 8084.300000011921,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 8501.699999988079,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 4667.800000011921,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3617.4000000059605,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4017.5999999940395,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4568,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 11953.09999999404,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4733.699999988079,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 5651.4000000059605,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 11186.799999982119,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 6567.5,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 7818,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 2984.5,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 9618.799999982119,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4468.699999988079,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Eden"
+    },
+    "1733340350898": {
+      "age": "21",
+      "gender": "Male",
+      "results": {
+        "art": {
+          "avgResponseTime": "9607.38",
+          "correct": 1,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "12180.13",
+          "correct": 1,
+          "total": 8
+        }
+      },
+      "timestamp": 1733340350898,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 24320,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4572,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 13761,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 5429,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 13597,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 12236,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 15629,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 7897,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 16716,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 16000,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 7431,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 9589,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 7692,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4073,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 9037,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 6321,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Dmitri"
+    },
+    "1733340527460": {
+      "age": "21",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "4741.61",
+          "correct": 1,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "8741.64",
+          "correct": 3,
+          "total": 8
+        }
+      },
+      "timestamp": 1733340527460,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 20117.400000095367,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 4915.600000023842,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 6719.899999976158,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2781.899999976158,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 20481.799999952316,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 6099,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 4217,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4600.5,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 7666.699999928474,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 8483.399999976158,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4733.600000023842,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2515.899999976158,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 4850,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4833.700000047684,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 2983.100000023842,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 1866.5,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "abby"
+    },
+    "1733340644485": {
+      "age": "Not Specified",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "15250.00",
+          "correct": 3,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "9154.13",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733340644485,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 6733,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 6099,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 5585,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 7234,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5465,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 14099,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 14004,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 14014,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 24584,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 17984,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 11000,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 16998,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 9618,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 17550,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 15149,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 9117,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Fred"
+    },
+    "1733340844118": {
+      "age": "24",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "39519.88",
+          "correct": 1,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "23030.00",
+          "correct": 6,
+          "total": 8
+        }
+      },
+      "timestamp": 1733340844118,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 17787,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 11536,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 27145,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 19002,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 8564,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 37351,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 47969,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 14886,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 49637,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 42449,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 28400,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 26355,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 43083,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 64718,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 36857,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 24660,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Camilla Clark"
+    },
+    "1733344714385": {
+      "age": "20",
+      "gender": "Male",
+      "results": {
+        "art": {
+          "avgResponseTime": "18997.24",
+          "correct": 5,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "10885.97",
+          "correct": 3,
+          "total": 8
+        }
+      },
+      "timestamp": 1733344714385,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 14467,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 15831,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 19244.5,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 26705.599999904633,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 2864.5999999046326,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 1977.7999999523163,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 3358.7000000476837,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 2638.600000143051,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 22913,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 22128.799999952316,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4529.700000047684,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 21523.900000095367,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 16837.200000047684,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 10892.199999809265,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 46466,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 6687.100000143051,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "TheBausffs"
+    },
+    "1733370118908": {
+      "age": "20",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "38923.12",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "32458.75",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733370118908,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 57899,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 35895,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 10036,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 50669,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 43178.00000000003,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5469.999999999971,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 18887,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 37636,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 33810,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 28298,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 39212,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 14876.999999999942,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 46167,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 67578,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 47004,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 34439,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "elyssa"
+    },
+    "1733370412841": {
+      "age": "19",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "9031.13",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "3705.37",
+          "correct": 3,
+          "total": 8
+        }
+      },
+      "timestamp": 1733370412841,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 4744,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5132,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 3230.9999999999964,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 5499,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 2260,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4314,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 1681.9999999999927,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 2781,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 7459,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 1815,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 2167.9999999999927,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 2148,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 26797.000000000015,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2665,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 1898,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 27299,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Leorah "
+    },
+    "1733370437306": {
+      "age": "18",
+      "gender": "Other",
+      "results": {
+        "art": {
+          "avgResponseTime": "4887.87",
+          "correct": 3,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "5637.63",
+          "correct": 2,
+          "total": 8
+        }
+      },
+      "timestamp": 1733370437306,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 13367.000000000002,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4784.999999999996,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4577,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 5570,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 6854,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 4356,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2202,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 3390,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 9502.000000000015,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 8568.999999999985,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 4457,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4558.999999999985,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 3456,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3858,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 4556.999999999985,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 145,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Kai Moss"
+    },
+    "1733370485637": {
+      "age": "18",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "8139.87",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "8525.37",
+          "correct": 3,
+          "total": 8
+        }
+      },
+      "timestamp": 1733370485637,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 10616,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 13110.999999999993,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4975,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 3724.9999999999927,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 7183,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 17662,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 4850.999999999985,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 6080,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 11304.999999999985,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 12294.000000000015,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 8313.999999999985,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 14439,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4254,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 2975,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 8213,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3325,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Jaymee"
+    },
+    "1733370499497": {
+      "age": "19",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "5200.00",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "7045.88",
+          "correct": 4,
+          "total": 8
+        }
+      },
+      "timestamp": 1733370499497,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 12256,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4575,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4132,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3806.0000000000146,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 4608.999999999985,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 7371,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 7502,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 12116.00000000003,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5327,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 9019,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 2911,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4509,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 8370,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 3510,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 3162,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 4792,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Miah"
+    },
+    "1733370508579": {
+      "age": "19",
+      "gender": "Male",
+      "results": {
+        "art": {
+          "avgResponseTime": "5763.88",
+          "correct": 1,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "9642.75",
+          "correct": 2,
+          "total": 8
+        }
+      },
+      "timestamp": 1733370508579,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 9976,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 19851.000000000007,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4772,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 10428,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 3286,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 14216,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 5303.999999999985,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 9309,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 6222,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 7591,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 7141,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 3937.000000000029,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3920,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 6106,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 6790,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4404,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Tanner Culleton"
+    },
+    "1733370521869": {
+      "age": "Not Specified",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "8410.00",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "7010.87",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733370521869,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 6692,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 8265,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 14362.000000000004,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 7814.999999999993,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 5778.999999999993,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 5497,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 3880,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 3797,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 12697.000000000015,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 9098,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 9227,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 15335,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5497.999999999985,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4930.999999999985,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4581.000000000015,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5913,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "lollipop"
+    },
+    "1733370708702": {
+      "age": "20",
+      "gender": "Male",
+      "results": {
+        "art": {
+          "avgResponseTime": "11179.00",
+          "correct": 5,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "11344.00",
+          "correct": 3,
+          "total": 8
+        }
+      },
+      "timestamp": 1733370708702,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 13829,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 23595,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4629,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4442,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 18523,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 8776,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 6140,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 10818,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 7822,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 22013,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 17077,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 20119,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 8085,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5287,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 4617,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4412,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Ben"
+    },
+    "1733370886112": {
+      "age": "Not Specified",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "8947.25",
+          "correct": 3,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "7451.50",
+          "correct": 3,
+          "total": 8
+        }
+      },
+      "timestamp": 1733370886112,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4828.000000000004,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 9758,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 9201,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 10642,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 7395.000000000007,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 7790,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 4665.000000000015,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 5333,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 12725,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 12573,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 3373,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 3502,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4945,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 15277.999999999985,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 9402,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 9780,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "alexyia "
+    },
+    "1733370920012": {
+      "age": "19",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "7533.00",
+          "correct": 5,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "9253.00",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733370920012,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 20453,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 8214,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 9514,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 5452,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 10912,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4524,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5449,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 9506,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 14981,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 5025,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 11751.00000000003,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 6204,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 6041,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3858,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 6989.999999999971,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5414,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Silvia"
+    },
+    "1733371480682": {
+      "age": "21",
+      "gender": "Other",
+      "results": {
+        "art": {
+          "avgResponseTime": "11293.50",
+          "correct": 1,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "14157.63",
+          "correct": 4,
+          "total": 8
+        }
+      },
+      "timestamp": 1733371480682,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 5745,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 18909.000000000015,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 18942,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 10541,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 15424,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 15778,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 18564,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 9358,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 6205.000000000029,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 14426,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 23154,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3986,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 10217,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 3851,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 15170,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 13339,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "meow"
+    },
+    "1733371903990": {
+      "age": "19",
+      "gender": "Male",
+      "results": {
+        "art": {
+          "avgResponseTime": "13191.38",
+          "correct": 6,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "21846.38",
+          "correct": 6,
+          "total": 8
+        }
+      },
+      "timestamp": 1733371903990,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 46666,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 15936,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 71438,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5949,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 5098,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 11651,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 10782,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 7251,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 37271.00000000003,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 25433,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 6984,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5833.000000000058,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 4382,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 12950,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 4633,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 8045,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Keaton"
+    },
+    "1733372219965": {
+      "age": "Not Specified",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "6707.25",
+          "correct": 1,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "15630.00",
+          "correct": 3,
+          "total": 8
+        }
+      },
+      "timestamp": 1733372219965,
+      "trialDetails": [
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 18711,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 61984,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5802,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 4999,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 9330,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 10063.000000000015,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 2653,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 11497.999999999985,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 29935.00000000003,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3748,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4364,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 3132,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2632.999999999971,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 3682.000000000029,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 3549,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 2615,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Marlet"
+    },
+    "1733372400785": {
+      "age": "Not Specified",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "6359.98",
+          "correct": 3,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "7053.96",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733372400785,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 7488.699999988079,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 7846.899999976158,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5277.699999988079,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 6202.399999976158,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 5382.400000035763,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 7186,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 6975.5,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 10072.100000023842,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 9797,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 5772.200000047684,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 3229,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 10306.900000035763,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5201.199999988079,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4659.599999964237,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 7481,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4432.899999976158,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Les"
+    },
+    "1733372563382": {
+      "age": "Not Specified",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "3708.84",
+          "correct": 3,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "4461.85",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733372563382,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 3721.5,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 7265.600000023842,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3158.400000035763,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 7074.100000023842,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 2755.5,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 1120.199999988079,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 3023.699999988079,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 7575.799999952316,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3696.800000011921,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 7100.100000023842,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 2523.300000011921,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 3174,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 2309.899999976158,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3864.300000011921,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 2297.7000000476837,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4704.599999964237,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Not Specified"
+    },
+    "1733372626091": {
+      "age": "Not Specified",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "3344.14",
+          "correct": 2,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "2785.76",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733372626091,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4439.800000011921,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 2210.399999976158,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 1335.5,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 1994.300000011921,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 1308.3999999761581,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3273.699999988079,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 2416,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 5308,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 1844.300000011921,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 2784.800000011921,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4496.400000035763,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 2249.5,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 5334.800000011921,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2465.699999988079,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 5666.199999988079,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 1911.4000000357628,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Not Specified"
+    },
+    "1733372791061": {
+      "age": "Not Specified",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "1772.55",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "3303.95",
+          "correct": 6,
+          "total": 8
+        }
+      },
+      "timestamp": 1733372791061,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 1933.3999999761581,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5998.800000011921,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 2491.5,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 3222,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 6695,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 1931.699999988079,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 2599.600000023842,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 1559.6000000238419,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 1986.1000000238419,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 3076.199999988079,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 1963.1000000238419,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 1504.1000000238419,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 2036.800000011921,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 1086.6000000238419,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 1365.199999988079,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 1162.300000011921,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Not Specified"
+    },
+    "1733372836670": {
+      "age": "Not Specified",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "998.69",
+          "correct": 2,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "1221.76",
+          "correct": 1,
+          "total": 8
+        }
+      },
+      "timestamp": 1733372836670,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 4596.100000023842,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 1919.2000000476837,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 675.9000000357628,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 557.1999999880791,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 513.8999999761581,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 527.3999999761581,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 508.10000002384186,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 476.2999999523163,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4250.299999952316,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 723.0999999642372,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 410.5,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 456.30000001192093,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 502.69999998807907,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 540.6000000238419,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 559.8000000119209,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 546.1999999880791,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Not Specified"
+    },
+    "1733373128256": {
+      "age": "18",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "93317.65",
+          "correct": 1,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "41053.09",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733373128256,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 36016.699999999255,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 60921.10000000056,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 48792.09999999963,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 48190.5,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 21878.200000000186,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 18161.599999999627,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 57568.39999999944,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 36896.09999999963,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 74861.29999999981,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 159385,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 22143.700000000186,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 53024,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 235877.40000000037,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 69794.5,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 30453.799999999814,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 101001.5,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Amanda "
+    },
+    "1733373181365": {
+      "age": "Not Specified",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "17808.15",
+          "correct": 2,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "10957.70",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733373181365,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 18959.399999976158,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4446.199999988079,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 8008.300000011921,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 15236.899999976158,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 8822.600000023842,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 6302.400000035763,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 19730.100000023842,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 6155.699999988079,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 6496.400000035763,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 31486.5,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 29310.799999952316,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4603.5,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 5814.900000035763,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 12677.800000011921,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 38913.59999996424,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 13161.699999988079,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Not Specified"
+    },
+    "1733373237214": {
+      "age": "19",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "6086.16",
+          "correct": 4,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "8525.68",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733373237214,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 18496.70000000298,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 12480.300000011921,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 6149.4000000059605,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 6160.5,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 7502.20000000298,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 7476.79999999702,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 3668.9000000059605,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 6270.600000008941,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 7972,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 3798.2999999970198,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4955.5999999940395,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 6784.399999991059,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3768,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 10644.89999999106,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 4592.20000000298,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 6173.9000000059605,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Alex Smith"
+    },
+    "1733383675312": {
+      "age": "18",
+      "gender": "Female",
+      "results": {
+        "art": {
+          "avgResponseTime": "6883.25",
+          "correct": 2,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "7398.25",
+          "correct": 3,
+          "total": 8
+        }
+      },
+      "timestamp": 1733383675312,
+      "trialDetails": [
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 7001,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 10215,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 23805,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4034,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3009,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 2684,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 5199,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 3239,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 12834.000000000015,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 6737.000000000015,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 2731,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 9390,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 3569,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 9020,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 4814,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 5971,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Amber"
+    },
+    "1733406589014": {
+      "age": "18",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "10596.00",
+          "correct": 0,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "7855.12",
+          "correct": 5,
+          "total": 8
+        }
+      },
+      "timestamp": 1733406589014,
+      "trialDetails": [
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 11810,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 6697,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 5964,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 9921,
+          "section": "Realistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 3898,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 6184,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 7685,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 10681.999999999985,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 8
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 16517,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 4683,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 7099.999999999985,
+          "section": "Artistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 8333,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 14533,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 9914,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 10868,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 12820,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 8
+        }
+      ],
+      "username": "Elliot"
+    },
+    "1733428580299": {
+      "age": "21",
+      "gender": "Not Specified",
+      "results": {
+        "art": {
+          "avgResponseTime": "27310.88",
+          "correct": 5,
+          "total": 8
+        },
+        "realistic": {
+          "avgResponseTime": "37575.63",
+          "correct": 2,
+          "total": 8
+        }
+      },
+      "timestamp": 1733428580299,
+      "trialDetails": [
+        {
+          "correct": "all-ai",
+          "isCorrect": false,
+          "responseTime": 41035,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 16551,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 55435,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 35251,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 48934,
+          "section": "Realistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": true,
+          "responseTime": 26449,
+          "section": "Realistic",
+          "selected": "image-1",
+          "trialNumber": 6
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": false,
+          "responseTime": 46017,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 7
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 30933,
+          "section": "Realistic",
+          "selected": "all-ai",
+          "trialNumber": 8
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 51819,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 1
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 19098,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 2
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": true,
+          "responseTime": 24587,
+          "section": "Artistic",
+          "selected": "no-ai",
+          "trialNumber": 3
+        },
+        {
+          "correct": "image-1",
+          "isCorrect": false,
+          "responseTime": 15748,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 4
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 17800,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 5
+        },
+        {
+          "correct": "all-ai",
+          "isCorrect": true,
+          "responseTime": 15800,
+          "section": "Artistic",
+          "selected": "all-ai",
+          "trialNumber": 6
+        },
+        {
+          "correct": "no-ai",
+          "isCorrect": false,
+          "responseTime": 33019,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 7
+        },
+        {
+          "correct": "image-2",
+          "isCorrect": true,
+          "responseTime": 40616,
+          "section": "Artistic",
+          "selected": "image-2",
+          "trialNumber": 8
+        }
+      ],
+      "username": "akl"
+    }
+  }
+}

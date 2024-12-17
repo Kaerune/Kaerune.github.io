@@ -1,0 +1,109 @@
+library(ez)
+library(dplyr)
+library(ggplot2)
+
+# Read in the data
+data <- read.table("stressPuppies.csv", header = TRUE, sep = "")
+
+# Part 1 Below 
+
+#(Run a repeated measures ANOVA using the ezANOVA() function in the “ez” library in
+# R to determine whether there is a main effect of stress on performance, a main effect of
+# motivation on performance, and an interaction between stress and motivation on
+# performance.)
+
+ez_results <- ezANOVA(
+  data = data,
+  dv = .(RT),  # dependent variable: response time
+  wid = .(subject),  # within-subject variable: subject
+  within = .(stress, motivation),  # within-subjects factors: stress and motivation
+  type = 3
+)
+
+# View the ANOVA results
+print(ez_results)
+
+
+# Part 2 Below 
+# (Make a table that shows the four means for each combination of conditions)
+
+# Group by stress and motivation, then calculate the mean RT for each combination
+means_table <- data %>%
+  group_by(stress, motivation) %>%
+  summarize(mean_RT = mean(RT))
+
+# Print the result
+print(means_table)
+
+
+# Part 3 Below 
+# (Given your results in 1) and 2), give an interpretation of the main effects and
+#interactions found in the experiment, interpreting all and only the significant results
+#(using a p<.05 criterion for significance).)
+
+# Based on the results from Parts 1 and 2, we can see that if the participants were stressed, they were significantly impacted in their response times. 
+# However, the same cannot be seen if the participants were motivated, as the p-value does not go below 0.05.
+# Lastly, if the participants were stressed *and* motivated, then their response times were significantly impacted but in the opposite direction, and the 
+# same also goes for when they were unstressed and unmotivated.
+
+
+# Part 4 Below
+# (Show the ANOVA that she should run in ezANOVA and the show the
+# resulting ANOVA table.)
+
+# Run the mixed-design ANOVA
+anova_results <- ezANOVA(
+  data = data,
+  dv = RT,                              # dependent variable: response time
+  wid = subject,                        # within-subject identifier: subject ID
+  within = .(stress, motivation),       # within-subject factors
+  between = .(gender, occupation),      # between-subject factors
+  type = 3
+)
+
+# Display the ANOVA table
+print(anova_results)
+
+#There are significant impacts on RT based on occupation, stress, and motivation (all by themselves).
+
+
+# Part 5 Below
+# (Make a bar graph or line chart that visually shows all of the new, between-subjects
+# significant effects you described in Question 4.)
+
+means_table <- data %>%
+  group_by(stress, motivation, gender, occupation) %>%
+  summarize(mean_RT = mean(RT, na.rm = TRUE))
+
+# Create a line plot
+ggplot(means_table, aes(x=stress, y=mean_RT, color=interaction(gender, occupation), group=interaction(gender, occupation))) +
+  geom_line() +
+  geom_point() +
+  facet_wrap(~motivation) +  # Separate plots for each motivation condition
+  labs(title="Maze Solving Time by Stress, Gender, Occupation, and Motivation",
+       x="Stress Condition", y="Mean Response Time (seconds)") +
+  theme_minimal() +
+  scale_color_manual(values=c("red", "blue", "green", "purple"), name="Gender & Occupation")
+
+
+# Part 6 Below
+# (Conduct an ANOVA using the lm() function in R for running this univariate ANOVA
+# (you can’t use ezANOVA any more because ezANOVA assumes you have a column that
+# identifies the subjects’ IDs for the purposes of matching up data, and in this experiment
+# there is only one subject).)
+
+# Fit a linear model using stress and motivation as factors
+model <- lm(RT ~ stress * motivation, data = data)
+
+# Display the ANOVA table
+anova_results <- anova(model)
+print(anova_results)
+
+
+# Part 7 Below
+# (Given that we used the same data for the ANOVAs in Questions 1 and 6, why did you
+# get different results in terms of which effects were significant (at a p<.05 level)?)
+
+# We get different results between Questions 1 and 6 duer to the fact that the repeated measures that ANOVA (Question 1) controls for subject variability, which
+# makes it more sensitive to significant effects.
+# The univariate ANOVA (Question 6) treats every data point as independent, which leads to potentially different conclusions about significance.

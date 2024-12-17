@@ -1,0 +1,44 @@
+library(ez)
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+
+# Start reading data
+AIvsHuman<-read.table("/Users/grego/Downloads/experiment-results/experiment_results.txt", header = TRUE,sep=" ")
+# End reading data
+
+# Start generating ANOVA report
+model<-ezANOVA(
+  data=AIvsHuman,
+  dv=numCorrect,
+  within=c(choiceType,stimulus),
+  wid=subject) # conduct a repeated measures ANOVA - dv = dependent variable.  within = a list of all of the within subject variables.  wid = variable that is used to group data by subject
+
+print(model)
+# End generating ANOVA report
+
+# Start generating a plot
+ggplot(AIvsHuman,aes(x=choiceType,y=numCorrect,fill=stimulus))+
+  stat_summary(fun.data=mean_se,geom="bar",position=position_dodge(width=0.9))+
+  stat_summary(fun.data=mean_cl_normal,geom="errorbar",position=position_dodge(0.9))+
+  xlab("Choice Type")+ylab("Number Correct")
+# End generating plot
+
+# Start generating means
+table1 <- tapply(X=AIvsHuman$numCorrect,INDEX=list(AIvsHuman$choiceType,AIvsHuman$stimulus),FUN=mean) #apply mean function to words realled broken down by motivation and type of stimulus
+table1 # show means so that one can begin to interpret the data
+# End generating means
+
+# Start generating scatter plot
+ggplot(subject_averages, aes(x = avgResponseTime, y = avgNumCorrect)) +
+  geom_point(aes(color = subject), size = 3) +  # Unique colors for each subject
+  geom_text(aes(label = subject), vjust = 1.5, size = 3) +  # Add subject names below points
+  theme_minimal() +                                         # Use a clean theme
+  xlab("Average Response Time") +
+  ylab("Average Number Correct") +
+  ggtitle("Scatter Plot of Avg Response Time vs Avg Number Correct") +
+  theme(
+    plot.title = element_text(hjust = 0.5), # Center title
+    legend.position = "none"               # Remove the legend
+  )
+# End generating scatter plot
